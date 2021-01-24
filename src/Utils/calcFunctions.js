@@ -51,7 +51,7 @@ function exibeMensagem(mensagem) {
     }
 }
 
-export const definirCalculo = (valorProduto, valorImpostoPorcentagem,valorDolar,aliquotaIof) => {
+const definirCalculo = (valorProduto, valorImpostoPorcentagem,valorDolar,aliquotaIof) => {
     valorImpostoPorcentagem = (parseFloat(document.getElementById("valorImposto")?.value / 100))
     valorProduto = (parseFloat(document.getElementById("valorPagar")?.value))
     mensagem = ''
@@ -78,3 +78,5 @@ export const definirCalculo = (valorProduto, valorImpostoPorcentagem,valorDolar,
     }
     exibeMensagem(mensagem)
   }
+
+  export default definirCalculo
