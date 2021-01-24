@@ -1,11 +1,10 @@
 const axios = require('axios');
 
-const fetchValorDolar = () => {
+const fetchDadosDolar = () => {
     return axios.get('https://economia.awesomeapi.com.br/all/USD-BRL')
       .then((result) => {
-        // handle success
         console.log(result);
-        return (result.data.USD.ask);
+        return (result.data.USD);
     })
     .catch(err => {
         console.error(err);
@@ -13,4 +12,4 @@ const fetchValorDolar = () => {
     })
 }
 
-export default fetchValorDolar;
+export default fetchDadosDolar;
