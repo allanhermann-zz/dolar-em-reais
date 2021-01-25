@@ -29,7 +29,7 @@ function insereReaisComImpostoCartao(valorProduto, valorImpostoPorcentagem, valo
     return mensagem
 }
 
-function validaCampos(valorProduto, valorImpostoPorcentagem, valorDolar, aliquotaIof) {
+export function validaCampos(valorProduto, valorImpostoPorcentagem, valorDolar, aliquotaIof) {
     mensagem = ''
     if (!(valorProduto > 0))
         mensagem += "Preencha o valor a ser convertido com um numero acima de 0\n"
@@ -79,4 +79,4 @@ const definirCalculo = (valorProduto, valorImpostoPorcentagem,valorDolar,aliquot
     exibeMensagem(mensagem)
   }
 
-  export default definirCalculo
+  export default definirCalculo;

@@ -1,0 +1,43 @@
+/*#colunaFormaPagamento {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #2E3742;
+    margin-left: 64px;
+}
+
+#container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }*/
+
+  #linhaFormaPagamento {
+      display: flex;
+      flex-direction: line;
+  }
+
+  #colunaFormaPagamento {
+    margin-left: 64px;
+  }
+
+  #tituloRadio {
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: 18px;
+      color: #2E3742;
+      margin-top: 32px;
+      margin-bottom: 16px;
+  }

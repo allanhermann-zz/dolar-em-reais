@@ -5,8 +5,8 @@ import BotaoConverter from "./Components/BotaoConverter.jsx";
 import FormaDePagamento from './Components/FormaDePagamento.jsx';
 import Infos from './Components/Infos.jsx';
 import TextoResultado from './Components/TextoResultado.jsx';
-import Titulo from './Components/Titulo.jsx';
 import ValoresDigitaveis from './Components/ValoresDigitaveis.jsx';
+import Circle from './Components/Circle.jsx'
 
 const { useEffect, useState } = React;
 var aliquotaIof = 0.0
@@ -24,21 +24,23 @@ export default function App() {
     })
   }, [])
 
+
   var dataPesquisa = dataDolar[0]
   var horaPesquisa = dataDolar[1]
 
   console.log(dataDolar)
-
   return (
     <div className="App">
-      <Titulo />
-      <Infos
+        <Infos
+          valorDolar={valorDolar}
+          dataPesquisa={dataPesquisa}
+          horaPesquisa={horaPesquisa}
+        />
+      <ValoresDigitaveis
         valorDolar={valorDolar}
-        dataPesquisa={dataPesquisa}
-        horaPesquisa={horaPesquisa}
-      />
-      <ValoresDigitaveis />
+        aliquotaIof={aliquotaIof} />
       <FormaDePagamento />
+      <Circle />
       <TextoResultado />
       <BotaoConverter
         valorProduto={valorProduto}
@@ -49,3 +51,5 @@ export default function App() {
     </div>
   );
 }
+
+
