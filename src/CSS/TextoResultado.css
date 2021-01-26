@@ -1,0 +1,38 @@
+#resultDiv {
+    display: none;
+    flex-direction: column;
+    padding-left: 64px;
+    height: 100vh;
+}
+
+#mensagemTop {
+    padding-top: 8px;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: #45505E;
+}
+
+#mensagemConvertida {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #00AB63;
+    font-size: 64px;
+    margin-top: -14px;
+    margin-bottom: 0px;
+}
+
+#mensagemMid {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #8C9CAD;
+}
+
+#mensagemInf {
+    padding-top: 64px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #8C9CAD;
+}

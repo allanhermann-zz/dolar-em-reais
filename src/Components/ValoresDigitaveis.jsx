@@ -5,7 +5,7 @@ import checkFilledForms from "../Utils/checkFilledForms.js"
 export default class ValoresDigitaveis extends Component {
   render() {
     return (
-      <div class="controles">
+      <div id="controlesDigitaveis">
         <div class="coluna">
           <p class="textoTitulo" id="dolar">Dólar</p>
           <div id="textBoxDiv">
