@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/dolar-em-reais/static/css/main.d237959b.chunk.css",
-    "main.js": "/dolar-em-reais/static/js/main.68fd9e8a.chunk.js",
-    "main.js.map": "/dolar-em-reais/static/js/main.68fd9e8a.chunk.js.map",
+    "main.css": "/dolar-em-reais/static/css/main.5e13be87.chunk.css",
+    "main.js": "/dolar-em-reais/static/js/main.d19a79e9.chunk.js",
+    "main.js.map": "/dolar-em-reais/static/js/main.d19a79e9.chunk.js.map",
     "runtime-main.js": "/dolar-em-reais/static/js/runtime-main.cad6f951.js",
     "runtime-main.js.map": "/dolar-em-reais/static/js/runtime-main.cad6f951.js.map",
-    "static/js/2.eb6bec65.chunk.js": "/dolar-em-reais/static/js/2.eb6bec65.chunk.js",
-    "static/js/2.eb6bec65.chunk.js.map": "/dolar-em-reais/static/js/2.eb6bec65.chunk.js.map",
+    "static/js/2.36ea042b.chunk.js": "/dolar-em-reais/static/js/2.36ea042b.chunk.js",
+    "static/js/2.36ea042b.chunk.js.map": "/dolar-em-reais/static/js/2.36ea042b.chunk.js.map",
     "static/js/3.a6257f86.chunk.js": "/dolar-em-reais/static/js/3.a6257f86.chunk.js",
     "static/js/3.a6257f86.chunk.js.map": "/dolar-em-reais/static/js/3.a6257f86.chunk.js.map",
     "index.html": "/dolar-em-reais/index.html",
-    "static/css/main.d237959b.chunk.css.map": "/dolar-em-reais/static/css/main.d237959b.chunk.css.map",
-    "static/js/2.eb6bec65.chunk.js.LICENSE.txt": "/dolar-em-reais/static/js/2.eb6bec65.chunk.js.LICENSE.txt",
+    "static/css/main.5e13be87.chunk.css.map": "/dolar-em-reais/static/css/main.5e13be87.chunk.css.map",
+    "static/js/2.36ea042b.chunk.js.LICENSE.txt": "/dolar-em-reais/static/js/2.36ea042b.chunk.js.LICENSE.txt",
     "static/media/BotaoConverter.css": "/dolar-em-reais/static/media/Converter.24a25bcd.svg",
-    "static/media/index.css": "/dolar-em-reais/static/media/Roboto-Regular.03523cf5.ttf",
-    "static/media/App.css": "/dolar-em-reais/static/media/maskdollar.568f2517.png",
+    "static/media/index.css": "/dolar-em-reais/static/media/maskdollar.a710d7a0.png",
     "static/media/BotaoVoltar.css": "/dolar-em-reais/static/media/voltar.b9523ffc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cad6f951.js",
-    "static/js/2.eb6bec65.chunk.js",
-    "static/css/main.d237959b.chunk.css",
-    "static/js/main.68fd9e8a.chunk.js"
+    "static/js/2.36ea042b.chunk.js",
+    "static/css/main.5e13be87.chunk.css",
+    "static/js/main.d19a79e9.chunk.js"
   ]
 }
