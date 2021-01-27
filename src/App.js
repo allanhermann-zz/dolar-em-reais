@@ -6,7 +6,6 @@ import FormaDePagamento from './Components/FormaDePagamento.jsx';
 import Infos from './Components/Infos.jsx';
 import TextoResultado from './Components/TextoResultado.jsx';
 import ValoresDigitaveis from './Components/ValoresDigitaveis.jsx';
-import Circle from './Components/Circle.jsx'
 import BotaoVoltar from './Components/BotaoVoltar.jsx'
 
 const { useEffect, useState } = React;
@@ -41,7 +40,6 @@ export default function App() {
         valorDolar={valorDolar}
         aliquotaIof={aliquotaIof} />
       <FormaDePagamento />
-      <Circle />
       <BotaoConverter
         valorProduto={valorProduto}
         valorImpostoPorcentagem={valorImpostoPorcentagem}

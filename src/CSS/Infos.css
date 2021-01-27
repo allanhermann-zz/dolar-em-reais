@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: line;
     width: 85vw;
-    height: 3vh;
+    height: 4vh;
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: bold;
-    padding: 73px 0px 0px 43px; /*Top, Right, Bottom, Left */
+    padding: 73px 0px 0px 43px; 
 }
 
 #morningstar {
-    padding: 5px 0px 0px 63px; /*Top, Right, Bottom, Left */
+    padding: 0px 0px 0px 63px; 
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -19,7 +19,7 @@
 
 #logo {
     width: 10vw;
-    padding: 73px 5px 117px 64px; /*Top, Right, Bottom, Left */;
+    padding: 73px 5px 117px 64px;
 }
 
 #header {
