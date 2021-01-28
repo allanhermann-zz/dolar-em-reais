@@ -3,10 +3,6 @@
       flex-direction: line;
   }
 
-  #colunaFormaPagamento {
-    margin-left: 64px;
-  }
-
   #tituloRadio {
       font-family: 'Roboto';
       font-weight: bold;

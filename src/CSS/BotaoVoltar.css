@@ -2,8 +2,6 @@
     position: static;
     width: 120px;
     height: 56px;
-    left: 0px;
-    top: 0px;
     background-color: #FFFFFF;
     border: 1px solid #D7E0EB;
     box-sizing: border-box;
@@ -15,3 +13,11 @@
     cursor: pointer;
     display: none;
 } 
+
+@media (max-width: 680px) {
+
+    #botaoVoltar {
+        margin-top: 25vw;
+    }
+
+}

@@ -1,7 +1,6 @@
 #resultDiv {
     display: none;
     flex-direction: column;
-    padding-left: 64px;
 }
 
 #mensagemTop {
@@ -31,7 +30,7 @@
 #mensagemInf {
     padding-top: 64px;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
-    color: #8C9CAD;
+    color: #00AB63;
 }

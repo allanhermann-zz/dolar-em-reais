@@ -1,10 +1,18 @@
 html {
-    background-image: url("./Images/maskdollar.png");
+    background-image: url("../Images/backgroundDollar.png");
     background-repeat: no-repeat;
     background-position: right 0px bottom 0px;
     background-size: contain;
     background-attachment: fixed;
     box-shadow: 0px -20px 40px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 680px) {
+
+    html {
+      background-image: none;
+  }
+
 }
 
 body {
@@ -16,9 +24,10 @@ body {
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+    src: local('Roboto'), url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: 'Roboto';
+    src: local('Roboto'), url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
 }

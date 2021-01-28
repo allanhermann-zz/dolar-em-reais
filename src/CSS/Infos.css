@@ -1,8 +1,7 @@
 #infos {
     display: flex;
     flex-direction: line;
-    width: 85vw;
-    height: 4vh;
+    flex-flow: wrap;
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: bold;
@@ -10,7 +9,8 @@
 }
 
 #morningstar {
-    padding: 0px 0px 0px 63px; 
+    margin-top: -10px;
+    padding: 0px 0px 0px 43px; 
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -18,8 +18,7 @@
 }
 
 #logo {
-    width: 10vw;
-    padding: 73px 5px 117px 64px;
+    padding: 73px 5px 117px 0px;
 }
 
 #header {
@@ -28,10 +27,23 @@
 }
 
 .textoInfo {
-    padding: 0px 20px 0px 20px;
+    padding: 0px;
 }
 
 .textos {
     display: flex;
     flex-direction: column;
+
+}
+
+@media (max-width: 680px) {
+
+    .textos {
+        visibility: hidden;
+        margin-top: -117px;
+    }
+    #logo {
+        position: absolute;
+        left: 32vw;
+    }
 }

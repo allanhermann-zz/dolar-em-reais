@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import './CSS/App.css';
 import fetchDadosDolar from './Utils/fetchAPI.js'
 import BotaoConverter from "./Components/BotaoConverter.jsx";
 import FormaDePagamento from './Components/FormaDePagamento.jsx';
