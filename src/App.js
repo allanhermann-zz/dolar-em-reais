@@ -1,12 +1,12 @@
 import React from 'react'
-import './CSS/App.css';
-import fetchDadosDolar from './Utils/fetchAPI.js'
-import BotaoConverter from "./Components/BotaoConverter.jsx";
-import FormaDePagamento from './Components/FormaDePagamento.jsx';
-import Infos from './Components/Infos.jsx';
-import TextoResultado from './Components/TextoResultado.jsx';
-import ValoresDigitaveis from './Components/ValoresDigitaveis.jsx';
-import BotaoVoltar from './Components/BotaoVoltar.jsx'
+import './css/App.css';
+import fetchDadosDolar from './functions/fetchAPI.js'
+import BotaoConverter from "./components/BotaoConverter.jsx";
+import FormaDePagamento from './components/FormaDePagamento.jsx';
+import Infos from './components/Infos.jsx';
+import TextoResultado from './components/TextoResultado.jsx';
+import ValoresDigitaveis from './components/ValoresDigitaveis.jsx';
+import BotaoVoltar from './components/BotaoVoltar.jsx'
 
 const { useEffect, useState } = React;
 var aliquotaIof = 0.0

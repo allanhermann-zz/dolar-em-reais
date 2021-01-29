@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import definirCalculo from "../Utils/calcFunctions.js";
-import "../CSS/BotaoConverter.css"
-import checkFilledForms from '../Utils/checkFilledForms.js'
+import definirCalculo from "../functions/calcFunctions.js";
+import "../css/BotaoConverter.css"
+import checkFilledForms from '../functions/checkFilledForms.js'
 
 export default class BotaoConverter extends Component {
     componentDidUpdate(){

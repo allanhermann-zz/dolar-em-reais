@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "../CSS/BotaoVoltar.css"
+import "../css/BotaoVoltar.css"
 
 export default class BotaoVoltar extends Component {
     render() {

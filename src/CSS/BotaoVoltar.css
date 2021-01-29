@@ -7,7 +7,7 @@
     box-sizing: border-box;
     box-shadow: 0px 8px 4px rgba(13, 17, 27, 0.08);
     border-radius: 8px;
-    background-image: url("../Images/voltar.svg");
+    background-image: url("../images/voltar.svg");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;

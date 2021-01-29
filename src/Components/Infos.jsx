@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../CSS/Infos.css'
+import '../css/Infos.css'
 
 export default class Infos extends Component {
 

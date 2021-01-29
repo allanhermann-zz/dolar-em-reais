@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import '../CSS/ValoresDigitaveis.css'
-import checkFilledForms from "../Utils/checkFilledForms.js"
+import '../css/ValoresDigitaveis.css'
+import checkFilledForms from "../functions/checkFilledForms.js"
 
 export default class ValoresDigitaveis extends Component {
   render() {

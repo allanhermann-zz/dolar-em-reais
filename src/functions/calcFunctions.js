@@ -38,13 +38,13 @@ function insereReaisComImpostoCartao(valorProduto, valorImpostoPorcentagem, valo
 
 export function validaCampos(valorProduto, valorImpostoPorcentagem, valorDolar, aliquotaIof) {
     mensagemInf = ''
-    if (!(valorProduto > 0))
+    if (valorProduto <= 0)
         mensagemInf += "Preencha o valor a ser convertido com um numero acima de 0\n"
-    if (!(valorImpostoPorcentagem > 0))
+    if (valorImpostoPorcentagem <= 0)
         mensagemInf += "Preencha o Valor do Imposto Estadual com um numero acima de 0\n"
-    if (!(aliquotaIof >= 0.0))
+    if (aliquotaIof < 0.0)
         mensagemInf += "Selecione a forma de pagamento \n"
-    if (!(valorDolar >= 0))
+    if (valorDolar < 0)
         mensagemInf += "Ocorreu um erro e o valor da cotação do dólar não pode ser carregado. \n Por favor, atualize seu navegador e tente novamente.\n"
     return (mensagemInf)
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import "../CSS/TextoResultado.css"
+import "../css/TextoResultado.css"
 
 export default class TextoResultado extends Component {
     render() {

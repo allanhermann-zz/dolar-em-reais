@@ -5,7 +5,7 @@ object-assign
 */
 
 /**
- * A better abstraction over CSS.
+ * A better abstraction over css.
  *
  * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
  * @website https://github.com/cssinjs/jss
