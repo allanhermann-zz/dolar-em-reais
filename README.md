@@ -19,13 +19,9 @@ Para realizar a execução desse projeto, é necessária a instalação dos segu
 
 - [Node.js](https://nodejs.org/)
 - [Git](https://git-scm.com/)
-- [react-scripts](https://www.npmjs.com/package/react-scripts)
 
 #### Esse último pode ser instalado através do seguinte comando:
 
-`````
-$ npm install react-scripts
-`````
 
 #### Após isso, basta executar os seguintes comandos: 
 
@@ -39,23 +35,27 @@ $ git clone https://github.com/allanhermann/dolar-em-reais.git
 ```
 $ cd <pasta_de_clonagem> 
 ```
-nota: Por padrão, o repositório pode ser acessado pelo seguinte comando:
+Nota: Por padrão, o repositório pode ser acessado pelo seguinte comando:
 ```
 $ cd dolar-em-reais 
 ```
+
+ 3º passo - Instalar os módulos
+```
+$ npm install
+```
  
- 
-3º passo - Executar o projeto:
+4º passo - Executar o projeto:
 ```
 $ npm start
 ```
 
-
-Assim, o projeto estará disponível no seguinte endereço:
+Assim, o projeto estará disponível no seguinte endereço local:
 
 ```
 localhost:3000
 ```
+
 ## Dúvidas?
 
 Qualquer dúvida, entre em contato, estou a disposição!
