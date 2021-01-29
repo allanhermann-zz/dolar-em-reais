@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dolar-em-reais/static/css/main.252c59e8.chunk.css",
-    "main.js": "/dolar-em-reais/static/js/main.d76729d9.chunk.js",
-    "main.js.map": "/dolar-em-reais/static/js/main.d76729d9.chunk.js.map",
+    "main.css": "/dolar-em-reais/static/css/main.bc09bbc3.chunk.css",
+    "main.js": "/dolar-em-reais/static/js/main.e7bb2e16.chunk.js",
+    "main.js.map": "/dolar-em-reais/static/js/main.e7bb2e16.chunk.js.map",
     "runtime-main.js": "/dolar-em-reais/static/js/runtime-main.cad6f951.js",
     "runtime-main.js.map": "/dolar-em-reais/static/js/runtime-main.cad6f951.js.map",
     "static/js/2.36ea042b.chunk.js": "/dolar-em-reais/static/js/2.36ea042b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a6257f86.chunk.js": "/dolar-em-reais/static/js/3.a6257f86.chunk.js",
     "static/js/3.a6257f86.chunk.js.map": "/dolar-em-reais/static/js/3.a6257f86.chunk.js.map",
     "index.html": "/dolar-em-reais/index.html",
-    "static/css/main.252c59e8.chunk.css.map": "/dolar-em-reais/static/css/main.252c59e8.chunk.css.map",
+    "static/css/main.bc09bbc3.chunk.css.map": "/dolar-em-reais/static/css/main.bc09bbc3.chunk.css.map",
     "static/js/2.36ea042b.chunk.js.LICENSE.txt": "/dolar-em-reais/static/js/2.36ea042b.chunk.js.LICENSE.txt",
     "static/media/BotaoConverter.css": "/dolar-em-reais/static/media/Converter.24a25bcd.svg",
     "static/media/index.css": "/dolar-em-reais/static/media/backgroundDollar.a710d7a0.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.cad6f951.js",
     "static/js/2.36ea042b.chunk.js",
-    "static/css/main.252c59e8.chunk.css",
-    "static/js/main.d76729d9.chunk.js"
+    "static/css/main.bc09bbc3.chunk.css",
+    "static/js/main.e7bb2e16.chunk.js"
   ]
 }
