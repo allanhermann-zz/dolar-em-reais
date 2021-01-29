@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dolar-em-reais/static/css/main.252c59e8.chunk.css",
-    "main.js": "/dolar-em-reais/static/js/main.cde918b9.chunk.js",
-    "main.js.map": "/dolar-em-reais/static/js/main.cde918b9.chunk.js.map",
+    "main.js": "/dolar-em-reais/static/js/main.d76729d9.chunk.js",
+    "main.js.map": "/dolar-em-reais/static/js/main.d76729d9.chunk.js.map",
     "runtime-main.js": "/dolar-em-reais/static/js/runtime-main.cad6f951.js",
     "runtime-main.js.map": "/dolar-em-reais/static/js/runtime-main.cad6f951.js.map",
     "static/js/2.36ea042b.chunk.js": "/dolar-em-reais/static/js/2.36ea042b.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.cad6f951.js",
     "static/js/2.36ea042b.chunk.js",
     "static/css/main.252c59e8.chunk.css",
-    "static/js/main.cde918b9.chunk.js"
+    "static/js/main.d76729d9.chunk.js"
   ]
 }
