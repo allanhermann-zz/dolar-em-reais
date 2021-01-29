@@ -21,7 +21,7 @@ export default class Infos extends Component {
         <div className="textos">
           <div id="infos">
             <p className="textoInfo"> $ {parseFloat(this.props.valorDolar).toFixed(2)} &emsp;|&emsp;</p>
-            <p className="textoInfo"> {new Date(this.props.dataPesquisa).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' })}&emsp;|&emsp;</p>
+            <p className="textoInfo"> {new Date(this.props.dataPesquisa).toLocaleDateString('pt-BR', {timeZone: "UTC", year: 'numeric', month: 'long', day: 'numeric' })}&emsp;|&emsp;</p>
             <p className="textoInfo"> {String(this.props.horaPesquisa).slice(0, -3)} UTC</p>
           </div>
 
