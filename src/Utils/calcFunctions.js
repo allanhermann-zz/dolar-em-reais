@@ -90,7 +90,7 @@ const definirCalculo = (valorProduto, valorImpostoPorcentagem, valorDolar, aliqu
                 break
         }
     }
-    mensagemMid = "Compra no dinheiro e taxa de " + (valorImpostoPorcentagem * 100).toFixed(2) + "\nCotação do dólar: $ 1.00 = R$ " + valorDolar.toFixed(2)
+    mensagemMid = "Compra no dinheiro e taxa estadual de " + (valorImpostoPorcentagem * 100).toFixed(2) + " %\nCotação do dólar: $ 1.00 = R$ " + valorDolar.toFixed(2)
     exibeMensagem()
 }
 

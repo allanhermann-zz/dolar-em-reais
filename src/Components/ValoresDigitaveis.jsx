@@ -6,8 +6,8 @@ export default class ValoresDigitaveis extends Component {
   render() {
     return (
       <div id="controlesDigitaveis">
-        <div class="coluna">
-          <p class="textoTitulo" id="dolar">Dólar</p>
+        <div className="coluna">
+          <p className="textoTitulo" id="dolar">Dólar</p>
           <div id="textBoxDiv">
             <input type="text" id="symbolDollar" value="$" disabled />
             <input type="number" id="valorPagar" onBlur={() => {
@@ -26,8 +26,8 @@ export default class ValoresDigitaveis extends Component {
 
         </div>
 
-        <div class="coluna">
-          <p class="textoTitulo">Taxa do Estado</p>
+        <div className="coluna">
+          <p className="textoTitulo">Taxa do Estado</p>
           <div id="textBoxDiv">
             <input type="number" id="valorImposto" onBlur={() => {
               (

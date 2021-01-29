@@ -18,17 +18,18 @@ export default class Infos extends Component {
           </svg>
         </div>
 
-        <div class="textos">
+        <div className="textos">
           <div id="infos">
-            <p class="textoInfo"> $ {parseFloat(this.props.valorDolar).toFixed(2)} &emsp;|&emsp;</p>
-            <p class="textoInfo"> {new Date(this.props.dataPesquisa).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' })}&emsp;|&emsp;</p>
-            <p class="textoInfo"> {String(this.props.horaPesquisa).slice(0, -3)} UTC</p>
+            <p className="textoInfo"> $ {parseFloat(this.props.valorDolar).toFixed(2)} &emsp;|&emsp;</p>
+            <p className="textoInfo"> {new Date(this.props.dataPesquisa).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' })}&emsp;|&emsp;</p>
+            <p className="textoInfo"> {String(this.props.horaPesquisa).slice(0, -3)} UTC</p>
           </div>
 
           <div id="morningstar">
             <p>Dados de câmbio disponibilizados pela Morningstar</p>
           </div>
 
+          <p id="cotacaoDolarSmartLayout">Cotação do Dólar: $ {parseFloat(this.props.valorDolar).toFixed(2)}</p>
         </div>
         
       </div>
