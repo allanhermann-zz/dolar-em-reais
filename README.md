@@ -43,6 +43,6 @@ localhost:3000
 ```
 ## Dúvidas?
 
-Qualquer dúvida, entre em contato através do 
+Qualquer dúvida, entre em contato, estou a disposição!
 
 #### Desenvolvido por Allan Biagio Hermann
